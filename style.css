@@ -26,15 +26,15 @@
         height:75%;
         width:50%;
     }
-}
-
-@media(max-width:480px){
-    body{
-        font-size: 70%;
+    .col4 img{
+        height:30%;
+        width:30%;
     }
 }
 
+
 .menubar{
+    margin: 3%;
     display:flex;
     text-align: center;
     overflow: hidden;
@@ -244,12 +244,11 @@ padding-bottom:2%;
 
 .col1 img{
     height:40%;
-    width: 70%;  
-    padding:5%;
+    width: 90%;  
+    padding:2%;
 }
 
 body{
-    margin: 5%;
     font-family: 'Raleway';
 }
 h1{
@@ -257,9 +256,12 @@ h1{
     font-weight: 700;
 }
 
-.col1 img{
-    height:30%;
-    width: 30%;  
-    padding:5%;
+@media(max-width:480px){
+    body{
+        font-size: 70%;
+    }
+    .col4 img{
+        height:40%;
+        width:60%;
+    }
 }
-
